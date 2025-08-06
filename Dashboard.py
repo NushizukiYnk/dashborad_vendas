@@ -16,7 +16,7 @@ def formata_numero(valor, prefixo = ''):
     return f'{prefixo} {valor:.2f} milhões'
 
 # Adicionando um titulo
-st.title('DASHBOARD DE VENDAS :shopping_trolley:')
+st.title('DASHBOARD DE VENDAS')
 
 # Criando um df e fazendo leitura do dados
 url = 'https://labdados.com/produtos'
@@ -207,4 +207,5 @@ with aba3:
                                         text_auto = True,
                                         title = f'Top {qtd_vendedores} vendedores (quantidade de vendas)')
         st.plotly_chart(fig_vendas_vendedores)
+
 
