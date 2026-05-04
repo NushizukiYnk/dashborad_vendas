@@ -16,7 +16,7 @@ O projeto permite explorar métricas, aplicar filtros dinâmicos e gerar diferen
 * Python
 * Streamlit
 * Pandas
-* Plotly / Matplotlib (ajuste conforme você usou)
+* Plotly / Matplotlib
 
 ---
 
